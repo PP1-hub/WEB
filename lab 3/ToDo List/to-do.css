@@ -1,0 +1,96 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: black;
+    color: rgb(231, 228, 224);
+    font-size: 18px;
+    height: 45px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+h1 {
+    margin-left: -80px;
+}
+
+.main {
+    margin-left: 30%;
+    /*по середине экрана устанавливает*/
+    margin-top: 50px;
+}
+
+.box {
+    margin-top: 25px;
+}
+
+.button-del {
+    width: 15px;
+    height: 20px;
+    float: right;
+}
+
+.button-del {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #fff;
+}
+
+.box {
+    margin-top: 25px;
+}
+
+.input {
+    width: 50%;
+    height: 30px;
+    padding-left: 25px;
+    border: 1px solid rgb(219, 218, 216);
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.button {
+    background-color: #4080ff;
+    height: 31px;
+    width: 60px;
+    color: azure;
+    border: 1px solid;
+    border-radius: 3px;
+    margin-left: 19px;
+}
+
+.events {
+    margin: 40px 0px 0px -80px;
+}
+
+.tasks {
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    padding: 25px;
+    width: 55%;
+    padding-left: 60px;
+    height: 30px;
+}
+
+.first-task {
+    border: 1px solid #cacece;
+    display: inline;
+    margin: 0px 30px 0px 0px;
+    position: relative;
+}
+
+.first-task:checked+span {
+    text-decoration: line-through;
+}
+
+.new-tasks {
+    border: none;
+    display: inline-block;
+    width: 85%;
+    padding-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
